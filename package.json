@@ -6,7 +6,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "server": "tsx watch app/game/server/index.ts"
     },
     "dependencies": {
         "@netlify/blobs": "^8.1.1",
@@ -16,7 +17,13 @@
         "next": "15.2.0",
         "react": "18.3.1",
         "react-dom": "18.3.1",
-        "unique-names-generator": "^4.7.1"
+        "unique-names-generator": "^4.7.1",
+        "@colyseus/core": "^0.15.0",
+        "@colyseus/schema": "^2.0.0",
+        "@colyseus/ws-transport": "^0.15.0",
+        "phaser": "^3.70.0",
+        "socket.io-client": "^4.7.4",
+        "tsx": "^4.7.1"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.18",
