@@ -21,6 +21,7 @@
         "@colyseus/core": "^0.15.0",
         "@colyseus/schema": "^2.0.0",
         "@colyseus/ws-transport": "^0.15.0",
+        "colyseus.js": "^0.15.18",
         "phaser": "^3.70.0",
         "socket.io-client": "^4.7.4",
         "tsx": "^4.7.1"
